@@ -22,12 +22,10 @@ for i in range(input_num):
         lst[i-1].setNext(lst[i])
     if i == input_num-1:
         lst[i].setNext(lst[0])
-while(lst != []):
-    for k in range:
         
     
-      for k in range(input_num):
-         print("Сслыка на следующий элемент " + str(lst[k].value) + "->" + str(lst[k].next.value))
+ for k in range(input_num):
+       print("Сслыка на следующий элемент " + str(lst[k].value) + "->" + str(lst[k].next.value))
         
 
         
